@@ -1,15 +1,8 @@
-global:
-    env:
-        - RUNKEEPER_APPID   : CHANGE ME
-        - RUNKEEPER_SECRET  : CHANGE ME
-        - APP_NAME          : myRunkeeper
 web1: #component type & number
   name: myrunkeeper            #component settings
-  document_root: webapp
   php_version: 5.3.10
   php_extensions:
     - mysql
-    - eaccelerator
      
 db1: #component type & number 
   name: myrunkeeper            #component settings
